@@ -1,5 +1,5 @@
 {%for obj in movie%}
-<h1>Title :{{obj.title | lower }}</h1>
+<h1>Title :{{obj.title | upper }}</h1>
 <p>Summery :{{obj.summery}} </p>
 <h2>Year:{{obj.year}}</h2>
 {%if obj.success%}
