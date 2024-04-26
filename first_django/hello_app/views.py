@@ -7,7 +7,7 @@ def print_hello(response):
     {
         'title': 'Godfather',
         'year': 1990,
-        'summary': 'Story of the underworld',
+        
         'success': True
     },
     {

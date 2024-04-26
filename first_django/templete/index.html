@@ -1,6 +1,6 @@
 {%for obj in movie%}
 <h1>Title :{{obj.title | upper }}</h1>
-<p>Summery :{{obj.summery}} </p>
+<p>Summery :{{obj.summary | default:'No available data' }} </p>
 <h2>Year:{{obj.year}}</h2>
 {%if obj.success%}
 <p>Movie was a success at the time</p>
