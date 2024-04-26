@@ -7,5 +7,6 @@ def print_hello(response):
         'title':'Godfather',
         'year':1990,
         'summery':'story of the underworld',
+        'success':True
     }
     return render(response,'index.html',movie_details) 
