@@ -3,4 +3,9 @@ from django.http import HttpResponse
 # Create your views here.
 
 def print_hello(response):
-    return render(response,'index.html') 
+    movie_details = {
+        'title':'Godfather',
+        'year':1990,
+        'summery':'story of the underworld',
+    }
+    return render(response,'index.html',movie_details) 
